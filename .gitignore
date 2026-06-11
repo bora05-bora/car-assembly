@@ -20,9 +20,6 @@ Release/
 # NuGet packages
 packages/
 
-# Temporary files
-temp_docs/
-
 # MCP server binary
 github-mcp-server_Windows_x86_64/
 
