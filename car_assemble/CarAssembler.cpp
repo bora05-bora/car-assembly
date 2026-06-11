@@ -4,6 +4,8 @@
 
 enum Step { CarType_S, Engine_S, Brake_S, Steering_S, RunTest_S };
 
+static bool inRange(int v, int lo, int hi) { return v >= lo && v <= hi; }
+
 CarAssembler::CarAssembler(PartRegistry& registry, CombinationValidator& validator)
     : registry_(registry), validator_(validator), step_(CarType_S) {}
 
@@ -33,9 +35,6 @@ bool CarAssembler::handleInput(int answer) {
         Sleep(800);
         return true;
     }
-
-    // 범위 검사
-    auto inRange = [](int v, int lo, int hi) { return v >= lo && v <= hi; };
 
     if (step_ == CarType_S && !inRange(answer, 1, registry_.carTypeCount())) {
         printf("ERROR :: 1 ~ %d 범위만 선택 가능\n", registry_.carTypeCount());
