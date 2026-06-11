@@ -142,6 +142,7 @@
     <ClCompile Include="Car.cpp" />
     <ClCompile Include="CombinationValidator.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="PartRegistry.cpp" />
     <ClCompile Include="rules\BoschBrakeRequiresBoschSteeringRule.cpp" />
     <ClCompile Include="rules\SedanCannotUseContinentalRule.cpp" />
     <ClCompile Include="rules\SuvCannotUseToyotaRule.cpp" />
@@ -150,6 +151,7 @@
     <ClCompile Include="tests\Phase3Test.cpp" />
     <ClCompile Include="tests\Phase4Test.cpp" />
     <ClCompile Include="tests\Phase5Test.cpp" />
+    <ClCompile Include="tests\Phase6Test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
