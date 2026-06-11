@@ -140,6 +140,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Car.cpp" />
+    <ClCompile Include="CarAssembler.cpp" />
+    <ClCompile Include="CarUI.cpp" />
     <ClCompile Include="CombinationValidator.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="PartRegistry.cpp" />
