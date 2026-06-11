@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Car.cpp" />
+    <ClCompile Include="CombinationValidator.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="rules\BoschBrakeRequiresBoschSteeringRule.cpp" />
     <ClCompile Include="rules\SedanCannotUseContinentalRule.cpp" />
@@ -148,6 +149,7 @@
     <ClCompile Include="rules\TruckCannotUseWiaRule.cpp" />
     <ClCompile Include="tests\Phase3Test.cpp" />
     <ClCompile Include="tests\Phase4Test.cpp" />
+    <ClCompile Include="tests\Phase5Test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
