@@ -1,0 +1,30 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.ipch
+
+# Build output
+x64/
+Debug/
+Release/
+*.obj
+*.pdb
+*.ilk
+*.exe
+*.dll
+*.lib
+*.tlog
+*.idb
+
+# NuGet packages
+packages/
+
+# Temporary files
+temp_docs/
+
+# MCP server binary
+github-mcp-server_Windows_x86_64/
+
+# MCP config (may contain sensitive info)
+.mcp.json
