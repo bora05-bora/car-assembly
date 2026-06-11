@@ -139,8 +139,15 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Car.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="rules\BoschBrakeRequiresBoschSteeringRule.cpp" />
+    <ClCompile Include="rules\SedanCannotUseContinentalRule.cpp" />
+    <ClCompile Include="rules\SuvCannotUseToyotaRule.cpp" />
+    <ClCompile Include="rules\TruckCannotUseMandoRule.cpp" />
+    <ClCompile Include="rules\TruckCannotUseWiaRule.cpp" />
     <ClCompile Include="tests\Phase3Test.cpp" />
+    <ClCompile Include="tests\Phase4Test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
