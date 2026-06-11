@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="tests\Phase3Test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
